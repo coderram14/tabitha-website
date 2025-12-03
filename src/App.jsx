@@ -126,7 +126,7 @@ const App = () => {
           <img 
             src="./assets/banner.png"
             alt="Students learningabc"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-top"
           />
 
         </div>
@@ -387,11 +387,8 @@ const App = () => {
             <div>
               <h3 className="text-white font-bold mb-6">Quick Links</h3>
               <ul className="space-y-3 text-sm">
-                <li><a href="#" className="hover:text-yellow-400 transition-colors">Our Story</a></li>
-                <li><a href="#" className="hover:text-yellow-400 transition-colors">Admissions</a></li>
-                <li><a href="#" className="hover:text-yellow-400 transition-colors">Academic Calendar</a></li>
-                <li><a href="#" className="hover:text-yellow-400 transition-colors">News & Events</a></li>
-                <li><a href="#" className="hover:text-yellow-400 transition-colors">Careers</a></li>
+                <li><a href="#our-story" className="hover:text-yellow-400 transition-colors">Our Story</a></li>
+                <li><a href="#mission" className="hover:text-yellow-400 transition-colors">mission</a></li>
               </ul>
             </div>
 
