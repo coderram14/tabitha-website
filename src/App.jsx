@@ -40,7 +40,7 @@ const App = () => {
             <div className="flex items-center space-x-3">
               {/* Logo Image with Fallback Logic */}
               <img 
-                src="/assets/logo.png"
+                src="./assets/logo.png"
                 alt="Tabitha Premier Logo" 
                 className="w-12 h-12 md:w-14 md:h-14 object-contain drop-shadow-md"
                 onError={(e) => {
@@ -124,7 +124,7 @@ const App = () => {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="/assets/banner.png"
+            src="./assets/banner.png"
             alt="Students learningabc"
             className="w-full h-full object-cover"
           />
@@ -141,7 +141,7 @@ const App = () => {
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-yellow-400 rounded-tl-3xl rounded-br-3xl -z-10"></div>
               <div className="relative rounded-2xl overflow-hidden shadow-2xl transform rotate-2 hover:rotate-0 transition-all duration-500">
                 <img 
-                  src="/assets/OurStory.png"
+                  src="./assets/OurStory.png"
                   alt="Children learning together" 
                   className="w-full h-auto object-cover"
                 />
@@ -213,10 +213,10 @@ const App = () => {
              <div className="order-1 md:order-2 grid grid-cols-2 gap-4">
                 <div className="space-y-4 mt-8">
                   <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Students studying" className="rounded-2xl shadow-lg w-full h-48 object-cover" />
-                  <img src="/assets/school_photo1.png" alt="Smiling student" className="rounded-2xl shadow-lg w-full h-32 object-cover" />
+                  <img src="./assets/school_photo1.png" alt="Smiling student" className="rounded-2xl shadow-lg w-full h-32 object-cover" />
                 </div>
                 <div className="space-y-4">
-                  <img src="/assets/school_photo2.png" alt="Classroom" className="rounded-2xl shadow-lg w-full h-32 object-cover" />
+                  <img src="./assets/school_photo2.png" alt="Classroom" className="rounded-2xl shadow-lg w-full h-32 object-cover" />
                   <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Teacher and student" className="rounded-2xl shadow-lg w-full h-48 object-cover" />
                 </div>
              </div>
