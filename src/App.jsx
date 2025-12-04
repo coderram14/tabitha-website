@@ -120,7 +120,7 @@ const App = () => {
       </nav>
 
       {/* Hero Section */}
-      <header id="home" className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
+      <header id="home" className="relative h-[60vh] md:h-screen min-h-[400px] flex items-center justify-center overflow-hidden">
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img 
